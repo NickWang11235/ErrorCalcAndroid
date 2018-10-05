@@ -384,4 +384,5 @@ public class MainActivity extends AppCompatActivity {
     private static NumWithError radToDeg(NumWithError num){
         return new NumWithError(Math.toDegrees(num.getNum()), Math.toDegrees(num.getError()));
     }
+
 }
